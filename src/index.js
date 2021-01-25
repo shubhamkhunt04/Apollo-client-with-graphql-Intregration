@@ -6,8 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
-  // uri: "https://48p1r2roz4.sse.codesandbox.io",
-  uri: "http://localhost:4000/",
+  uri:
+    "https://api-apeast.graphcms.com/v1/ck3u2hmr80b9h01hf2qpq6qar/master?query=%7B%0A%20%20hotels%7B%0A%20%20%20%20status%0A%20%20%20%20name%0A%20%20%7D%0A%7D",
   cache: new InMemoryCache(),
 });
 
